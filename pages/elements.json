@@ -1,0 +1,135 @@
+{
+  "Home Page": {
+    "home_page_locator": {
+      "name": "Home Page",
+      "comment": "add_comment",
+      "locator": "your Xpath locator",
+      "locale_path": "Home Page.locator",
+      "search_cond": "xpath"
+    },
+    "btn_select_home": {
+      "name": "Select Home Button",
+      "comment": "add_comment",
+      "locator": "your Xpath locator",
+      "search_cond": "xpath"
+    },
+    "btn_financing": {
+      "name": "Financing Button",
+      "comment": "add_comment",
+      "locator": "your Xpath locator",
+      "search_cond": "xpath"
+    },
+    "btn_deed_transfer": {
+      "name": "Deed Transfer Button",
+      "comment": "add_comment",
+      "locator": "your Xpath locator",
+      "search_cond": "xpath"
+    },
+    "btn_get_utilities": {
+      "name": "Get Utilities Button",
+      "comment": "add_comment",
+      "locator": "your Xpath locator",
+      "search_cond": "xpath"
+    },
+    "btn_get_insurance": {
+      "name": "Get Insurance Button",
+      "comment": "add_comment",
+      "locator": "your Xpath locator",
+      "search_cond": "xpath"
+    },
+    "btn_move_new_home": {
+      "name": "Move To New Home Button",
+      "comment": "add_comment",
+      "locator": "your Xpath locator",
+      "search_cond": "xpath"
+    },
+    "btn_buy_home": {
+      "name": "Buy Home Button",
+      "locator": "your Xpath locator",
+      "search_cond": "xpath"
+    },
+    "btn_apply_for_ready_home_grant": {
+      "name": "Apply For Ready Home Grant Button",
+      "locator": "your Xpath locator",
+      "search_cond": "xpath"
+    }
+  },
+  "Second Page": {
+    "second_page_locator": {
+      "name": "Second Page",
+      "comment": "add_comment",
+      "locator": "your Xpath locator",
+      "search_cond": "xpath"
+    }
+  },
+  "Third Page": {
+    "third_page_locator": {
+      "name": "Third Page",
+      "comment": "add_comment",
+      "locator": "your Xpath locator",
+      "locale_path": "Third Page.third_locator",
+      "search_cond": "xpath"
+    },
+    "btn_name": {
+      "name": "name Button",
+      "comment": "add_comment",
+      "locator": "your Xpath locator",
+      "search_cond": "xpath"
+    }
+  },
+  "Base Page Journey": {
+    "base_page_journey_locator": {
+      "name": "Base Page Journey",
+      "comment": "add_comment",
+      "locator": "your Xpath locator",
+      "search_cond": "xpath"
+    },
+    "price_selected_home": {
+      "name": "Price for selected home {}",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'price number') and (contains(., '{}'))]",
+      "search_cond": "xpath"
+    },
+    "lnk_chosen_home": {
+      "name": "Property details - chosen home - on Page",
+      "locator": "//div[contains(@class, 'propertyInfo')]//div[contains(@class, 'ant-collapse-header')]",
+      "search_cond": "xpath"
+    },
+    "tenure_slider": {
+      "name": "Tenure slider",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'qa-slider')]",
+      "search_cond": "xpath"
+    },
+    "btn_filter_icon_search_results": {
+      "name": "Filter Icon on Search Results Page",
+      "comment": "add_comment",
+      "locator": "//i[contains(@class, 'icon-filter')]",
+      "search_cond": "xpath"
+    },
+    "list_of_results_price": {
+      "name": "List of results price for homes",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'row-flex')]//div[contains(@class, 'price number')]",
+      "search_cond": "xpath"
+    },
+    "area_dropdown_result_page": {
+      "name": "Dropdown Area on Search Results Page",
+      "comment": "add_comment",
+      "locator": "//div[contains(@class, 'select-selection_')]",
+      "search_cond": "xpath"
+    },
+    "area_arrow_dropdown_result_page": {
+      "name": "Area arrow from dropdown Area on Search Results Page",
+      "comment": "add_comment",
+      "locator": "//span[contains(@class, 'select-arrow')]",
+      "search_cond": "xpath"
+    },
+    "area_input_dropdown_result_page": {
+      "name": "Area input from dropdown Area on Search Results Page",
+      "comment": "add_comment",
+      "locator": "//input[contains(@class, 'ant-select-search__field')]",
+      "search_cond": "xpath"
+    }
+  }
+}

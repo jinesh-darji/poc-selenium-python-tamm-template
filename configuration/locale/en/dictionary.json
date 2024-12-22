@@ -1,0 +1,8 @@
+{
+  "Home Page": {
+    "locator": "Text of element in Eng"
+  },
+  "Third Page": {
+    "third_locator": "Text of element in Eng"
+  }
+}
